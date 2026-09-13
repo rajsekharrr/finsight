@@ -1,0 +1,120 @@
+{
+  "IT": {
+    "pe": 25.0,
+    "pb": 6.5,
+    "roe": 22.0,
+    "roce": 28.0,
+    "de_ratio": 0.05,
+    "operating_margin": 20.0,
+    "net_margin": 15.0,
+    "current_ratio": 2.5,
+    "sales_cagr_3y": 12.0,
+    "description": "Indian IT Services sector — Infosys, TCS, Wipro, HCL Tech, Tech Mahindra"
+  },
+  "BFSI": {
+    "pe": 18.0,
+    "pb": 2.8,
+    "roe": 14.0,
+    "roce": null,
+    "de_ratio": null,
+    "operating_margin": null,
+    "net_margin": 18.0,
+    "nim": 3.5,
+    "gnpa": 2.5,
+    "description": "Banking, Financial Services & Insurance — HDFC Bank, ICICI Bank, SBI, Kotak"
+  },
+  "FMCG": {
+    "pe": 52.0,
+    "pb": 12.0,
+    "roe": 50.0,
+    "roce": 60.0,
+    "de_ratio": 0.1,
+    "operating_margin": 18.0,
+    "net_margin": 12.0,
+    "current_ratio": 1.8,
+    "sales_cagr_3y": 9.0,
+    "description": "Fast Moving Consumer Goods — HUL, ITC, Nestle, Dabur, Britannia"
+  },
+  "Pharma": {
+    "pe": 28.0,
+    "pb": 4.5,
+    "roe": 15.0,
+    "roce": 18.0,
+    "de_ratio": 0.3,
+    "operating_margin": 18.0,
+    "net_margin": 11.0,
+    "current_ratio": 2.0,
+    "sales_cagr_3y": 11.0,
+    "description": "Pharmaceuticals — Sun Pharma, Dr Reddy's, Cipla, Divi's"
+  },
+  "Auto": {
+    "pe": 22.0,
+    "pb": 4.0,
+    "roe": 18.0,
+    "roce": 22.0,
+    "de_ratio": 0.5,
+    "operating_margin": 12.0,
+    "net_margin": 7.0,
+    "current_ratio": 1.2,
+    "sales_cagr_3y": 14.0,
+    "description": "Automobiles — Maruti, Tata Motors, M&M, Hero MotoCorp"
+  },
+  "Energy": {
+    "pe": 12.0,
+    "pb": 1.8,
+    "roe": 14.0,
+    "roce": 16.0,
+    "de_ratio": 0.8,
+    "operating_margin": 15.0,
+    "net_margin": 8.0,
+    "current_ratio": 1.0,
+    "sales_cagr_3y": 10.0,
+    "description": "Oil & Gas, Power — Reliance, ONGC, NTPC, Tata Power, BPCL"
+  },
+  "Infra": {
+    "pe": 35.0,
+    "pb": 4.5,
+    "roe": 12.0,
+    "roce": 14.0,
+    "de_ratio": 1.5,
+    "operating_margin": 20.0,
+    "net_margin": 6.0,
+    "current_ratio": 1.1,
+    "sales_cagr_3y": 18.0,
+    "description": "Infrastructure, Ports, Construction — Adani Ports, L&T, DLF"
+  },
+  "Defence": {
+    "pe": 40.0,
+    "pb": 6.0,
+    "roe": 16.0,
+    "roce": 20.0,
+    "de_ratio": 0.1,
+    "operating_margin": 15.0,
+    "net_margin": 10.0,
+    "current_ratio": 2.5,
+    "sales_cagr_3y": 20.0,
+    "description": "Defence PSUs and private — BEL, HAL, Cochin Shipyard, MTAR"
+  },
+  "NBFC": {
+    "pe": 22.0,
+    "pb": 4.0,
+    "roe": 18.0,
+    "roce": null,
+    "de_ratio": 3.5,
+    "operating_margin": null,
+    "net_margin": 20.0,
+    "description": "Non-Banking Financial Companies — Bajaj Finance, Muthoot Finance, Cholamandalam"
+  },
+  "Diversified": {
+    "pe": 22.0,
+    "pb": 3.5,
+    "roe": 15.0,
+    "roce": 18.0,
+    "de_ratio": 0.6,
+    "operating_margin": 15.0,
+    "net_margin": 9.0,
+    "current_ratio": 1.5,
+    "sales_cagr_3y": 12.0,
+    "description": "Default — used when sector is unknown or diversified conglomerate"
+  }
+}
