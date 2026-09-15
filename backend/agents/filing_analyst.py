@@ -9,8 +9,9 @@ import logging
 import json
 import re
 from typing import Dict, Any, List
+import os
 
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from backend.rag.retriever import retrieve_for_query
 
 # Configure logging
@@ -138,13 +139,18 @@ Return ONLY the JSON object, no markdown code fences or additional text."""
 
         # Call LLM
         try:
-            llm = ChatOpenAI(
-                model="gpt-4o-mini",
+            google_api_key = os.getenv("GOOGLE_API_KEY")
+            if not google_api_key:
+                raise ValueError("GOOGLE_API_KEY environment variable not set")
+
+            # Use Gemini 1.5 Flash (free tier model)
+            llm = ChatGoogleGenerativeAI(
+                model="gemini-1.5-flash",
                 temperature=0,
-                timeout=60
+                google_api_key=google_api_key
             )
 
-            logger.info("Calling LLM for analysis")
+            logger.info("Calling Gemini LLM for analysis")
             response = llm.invoke(prompt)
             response_text = response.content.strip()
 

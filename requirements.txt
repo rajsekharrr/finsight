@@ -1,25 +1,20 @@
 # Core LLM & Agent Framework
 langchain==0.3.25
 langchain-openai==0.2.14
+langchain-google-genai>=0.0.11
 langchain-community==0.3.24
 langgraph==0.2.68
 
 # RAG & Document Processing
-llama-index-core==0.12.6
-llama-index-vector-stores-chroma==0.4.1
-llama-index-embeddings-openai==0.3.1
-llama-index-retrievers-bm25==0.5.0
-llama-index-readers-file==0.4.4
-
-# Vector Databases
-chromadb==0.6.3
+google-generativeai==0.8.3
+pypdf>=3.0.0
 faiss-cpu==1.9.0.post1
 
 # Financial Data
 yfinance==0.2.54
 pandas==2.2.3
 # pandas-ta==0.3.14b0  # skipped: unavailable; technical indicators implemented manually
-numpy==1.26.4
+numpy>=1.26.4,<3.0.0  # Updated for Python 3.13 compatibility
 
 # News
 feedparser==6.0.11

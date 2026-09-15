@@ -1,0 +1,50 @@
+╔════════════════════════════════════════════════════════════╗
+║          FINSIGHT AI - QUICK START GUIDE                   ║
+╚════════════════════════════════════════════════════════════╝
+
+✅ SYSTEM STATUS: READY TO RUN
+
+📋 PREREQUISITES COMPLETED:
+   ✓ Python 3.13+ installed
+   ✓ Virtual environment setup
+   ✓ All dependencies installed
+   ✓ API keys configured
+   ✓ Sample data indexed
+   ✓ RAG system tested (all tests passed)
+
+🚀 TO START THE APPLICATION:
+
+1. Open PowerShell/Terminal
+2. Navigate to project:
+   cd E:\PJT1\finsight
+
+3. Activate virtual environment:
+   .venv\Scripts\activate
+
+4. Run the application:
+   python main.py
+
+5. Open in browser:
+   - Frontend UI: http://localhost:7860
+   - Backend API: http://localhost:8000
+   - API Docs: http://localhost:8000/docs
+
+📖 DOCUMENTATION:
+   - FINAL_STATUS.md    - Complete status and instructions
+   - SETUP_GUIDE.md     - Detailed setup guide
+   - QUICK_START.md     - Quick reference commands
+   - SYSTEM_STATUS.md   - System health report
+
+🧪 TEST RAG SYSTEM:
+   python test_simplified_rag.py
+
+🛠️ TROUBLESHOOTING:
+   - Port in use? See FINAL_STATUS.md
+   - Missing deps? pip install -r requirements.txt
+   - API key issues? Check .env file
+
+💡 TIP: Use run.bat on Windows for one-click startup!
+
+═══════════════════════════════════════════════════════════
+Your simplified RAG system is ready! All tests passed. ✓
+═══════════════════════════════════════════════════════════
